@@ -5,6 +5,9 @@
 console.log(3+3) //code readability should be high
 console.log("Yogesh")
 
+let x;  //result will be undefined
+console.log(x);
+
 let age = 3;
 
 // primitive Data Types
