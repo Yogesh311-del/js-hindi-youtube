@@ -10,7 +10,7 @@ accountPassword = "2121210"
 accountCity = "Brenjeo"
 
 
-console.log(accountId);
+console.log(accountId) 
 
 console.table([accountId, accountEmail,
 accountPassword, accountCity])

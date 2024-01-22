@@ -13,4 +13,4 @@
 
 // === -> checks more effectivly
 
-console.log("2" === 2);
+console.log("2" === 2); //strictly comparison 
