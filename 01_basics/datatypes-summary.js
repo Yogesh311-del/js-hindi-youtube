@@ -58,7 +58,7 @@ anotherName = "chaiaurcode"
 
 console.log(myYoutubename);
 console.log(anotherName);
-
+// eg. of non primitive -- thefoer changes will be in the heap which is real and not copy.
 let userOne = {
     email: "user@gmail.com",
     upi: "user@ybl"
