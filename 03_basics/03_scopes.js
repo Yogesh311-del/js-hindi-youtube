@@ -22,7 +22,7 @@ function one(){
     function two(){
         const website = "youtube"
         // our function can access the variables declared outside --> like username --> this property is closure(child function can access parent variables).
-        console.log(username);
+        // console.log(username);
     }
     // console.log(website);
     two()
@@ -44,18 +44,20 @@ if(true){
 
 // +++++++++ interesting Topic:: *Hoisting* ++++++
 
-console.log(addone(5))
+// console.log(addone(5))
 
-function addone(num){
-    return num + 1
-}
+// function addone(num){
+//     return num + 1
+// }
 
-addTwo(5) // --> gives error(used before declaration as stored in varible gives error)
-const addTwo = function(num){
-    return num + 2
-}
-
-
+// addTwo(5) // --> gives error(used before declaration as stored in varible gives error)
+// const addTwo = function(num){
+//     return num + 2
+// }
 
 
+// console.log(addThree(10));
+
+
+ 
 
