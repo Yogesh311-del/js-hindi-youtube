@@ -6,8 +6,8 @@ console.log(typeof (score));
 
 let valueInNumber = Number(score) //conversion of string to number
 
-console.log(typeof valueInNumber)
-console.log(valueInNumber)
+console.log(typeof valueInNumber) // number
+console.log(valueInNumber) // NaN --> 'cause string is converted to number
 
 // the 33abc which is converted by Number(score)
 // to number datatype is Not-A-Number(NaN)
@@ -72,7 +72,7 @@ console.log(gameCounter);
 
 
 // ----**** important ****---- //
-let x = 3
+let x = 3  
 const y = x++ // aur x++
-console.log(x);
-console.log(y);
+console.log(x); 
+console.log(y); 

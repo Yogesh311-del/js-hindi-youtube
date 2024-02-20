@@ -2,22 +2,24 @@
 // rely on keys. dont waste paper!
 "use strict"; //treat all JS code as newer version
 //alert (3 + 3 ) //we are using node js and not browser
-console.log(3+3) //code readability should be high
-console.log("Yogesh")
+// console.log(3+3) //code readability should be high
+// console.log("Yogesh")
 
-let x;  //result will be undefined
-console.log(x);
+let x;  
+// console.log(x);// result will be undefined
 
 let age = 3;
+console.log(typeof age);
 
 // primitive Data Types
-// number = 2 to power 53
+
+// number = 2 to  2 power 53
 // bigint -> big entries of data
 // string -> ""
 // boolean => true/false
 // null => standalone value
 // undefined => value not assigned
-// symbol => unique 
+// symbol => for uniqueness 
 
 
 // object 

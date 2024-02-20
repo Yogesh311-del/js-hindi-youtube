@@ -39,6 +39,24 @@ if(userEmal.length === 0){
 
 const emptyObj = {}
 
+
+// the Object.keys(emptyObj) => converts the object to array and applying the function .length will help us know about the length of it.
 if(Object.keys(emptyObj).length === 0){
     console.log("Object is empty");
 }
+
+// Nullish Coalescing Operator (??): null undefined
+
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 10;
+// val1 = undefined ?? 15
+val1 = null ?? 10 ?? 15
+console.log(val1);
+
+// Terniary operator
+
+// condition ? true : false
+
+const iceTeaprice = 100
+iceTeaprice <= 80 ? console.log("less than 80") : console.log("More than 80");;
