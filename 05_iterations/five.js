@@ -23,9 +23,10 @@ function printMe(item){
 
 // giving reference of printMe to coding array.
 coding.forEach(printMe)
+// printMe();
 
 
 // iss forEach  ke pass item index arr(puure) teeno ka access hota hai
 coding.forEach( (item, index, arr) => {
-    console.log(item, index, arr);
+    // console.log(item, index, arr);
 } ) 
